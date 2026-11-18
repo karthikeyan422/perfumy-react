@@ -7,7 +7,7 @@ import three from "../assets/images/three.jpg";
 function Product() {
 
     return (
-        <div class="products">
+        <div className="products">
 
             <div class="box">
 
@@ -16,11 +16,11 @@ function Product() {
             </div>
 
 
-            <div class="box">
+            <div className="box">
                 <img src={two} alt="villain"></img>
                 <p>Fogg Wood Extreme, Eau De Parfum, Long-lasting Perfume, 100ml</p>
             </div>
-            <div class="box">
+            <div className="box">
                 <img src={three} alt="Designs Club"></img>
                 <p>Designer Club-Be Spoke by Perfume Lounge Men's Perfume | Premium Long Lasting Perfume</p>
             </div>
